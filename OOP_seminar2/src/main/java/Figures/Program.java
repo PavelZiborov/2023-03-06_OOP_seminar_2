@@ -17,6 +17,7 @@ public class Program {
             info(figure);
         }
     }
+
     public static void info(Figure figure){
         System.out.println(figure);
         System.out.printf("Площадь %.2f", figure.area());

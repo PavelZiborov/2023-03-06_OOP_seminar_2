@@ -15,7 +15,7 @@ public class Program {
         Animal tiger = new Tiger(1,140, "зеленые", "Африка", "2019");
         Animal dog = new Dog(1,6,"Карие","Микки", "Тойтерьер", true, "коричневый", "2017", false);
         Animal wolf = new Wolf(1, 80, "Голубые","Сибирь","2020", true);
-        Animal chicken = new Chicken(0, 10,"карие", 1);
+        Animal chicken = new Chicken(0, 9,"карие", 1);
         Animal stork = new Stork(1,25,"Карие", 200);
 
         Zoo zoo = new Zoo();
