@@ -9,6 +9,10 @@ public class Chicken extends Bird {
         super.type = "Chiken";
     }
 
+    public Chicken() {
+        super();
+    }
+
     @Override
     public String sound() {
         return "Ко-Ко-Ко...";

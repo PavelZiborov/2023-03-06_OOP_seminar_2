@@ -9,6 +9,10 @@ public class Tiger extends WildAnimal {
         super.type = "Tiger";
     }
 
+    public Tiger() {
+        super();
+    }
+
     @Override
     public String sound() {
         return "Арр...";

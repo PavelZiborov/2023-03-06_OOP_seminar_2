@@ -5,6 +5,10 @@ import Zoo.Base.Interfaces.AnimalInterface;
 public abstract class Bird extends Animal implements AnimalInterface {
     protected int flyingHeight;
 
+    public Bird() {
+
+    }
+
     public void fly() {
         System.out.println(String.format("Я лечу на %d метрах", flyingHeight));
     }

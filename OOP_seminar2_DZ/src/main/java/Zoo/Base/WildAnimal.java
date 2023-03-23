@@ -13,6 +13,10 @@ public abstract class WildAnimal extends Animal implements AnimalInterface {
         this.locationDate = locationDate;
     }
 
+    public WildAnimal() {
+
+    }
+
     public String getHabitat() {
         return habitat;
     }

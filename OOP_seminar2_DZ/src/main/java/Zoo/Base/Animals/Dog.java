@@ -11,6 +11,10 @@ public class Dog extends Pet {
         super.type = "Dog";
     }
 
+    public Dog() {
+
+    }
+
     public Boolean getTraining() {
         return training;
     }

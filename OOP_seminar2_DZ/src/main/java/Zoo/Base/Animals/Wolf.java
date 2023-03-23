@@ -11,6 +11,10 @@ public class Wolf extends WildAnimal {
         super.type = "Wolf";
     }
 
+    public Wolf() {
+
+    }
+
     public Boolean getLeader() {
         return leader;
     }

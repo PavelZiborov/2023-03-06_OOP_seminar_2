@@ -6,7 +6,7 @@ public abstract class Animal implements AnimalInterface {
     private int height;
     private int weight;
     private String eyeColor;
-    protected String type;
+    public String type;
     protected int id;
 
     protected Animal(int height, int weight, String eyeColor) {

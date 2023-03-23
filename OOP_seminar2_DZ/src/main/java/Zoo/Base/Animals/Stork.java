@@ -8,6 +8,10 @@ public class Stork extends Bird {
         super.type = "Stork";
     }
 
+    public Stork() {
+
+    }
+
     @Override
     public String sound() {
         return "Тк-Тк-Тк...";
@@ -17,6 +21,5 @@ public class Stork extends Bird {
     public StringBuilder info() {
         return super.info().append(String.format("; sound=%s",sound()));
     }
-
 
 }
